@@ -1,0 +1,40 @@
+body{
+    background-color: lavender;
+}
+h3{
+  color: rgb(28, 99, 99);
+}
+h1 
+{
+    color: rgb(20, 85, 85)
+}
+body{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: medium;
+    color: rgb(8, 8, 8);
+}
+img{
+    align-items: center;
+}
+.schools{
+    color: rgb(14, 85, 45);
+}
+.quote{
+    align-content: right;
+    color: rgb(88, 69, 15);
+    font-style: oblique;
+    align-self: flex-end;
+
+}
+.copyright{
+    color: rgb(29, 3, 3);
+}
+.contact{
+    color: rgb(5, 26, 26);
+}
+.copyright{
+    color: slategrey;
+    font-style:inherit;
+    animation: backwards;
+    position: relative;
+}
