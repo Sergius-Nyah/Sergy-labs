@@ -7,14 +7,14 @@
     filter: grayscale(100%);*/
     border: #344c6b;
     border-color: #344c6b;
-}
+} 
 .links {
-    margin: 30px 0px;
+    margin: 40px 30px;
     display: flex;
     flex-direction: row; 
-    justify-content: space-between;
+    justify-content: space-between; 
     color: #344c6b;
-}
+} 
 .Intro{
     margin: 5%;
 
@@ -27,12 +27,12 @@
 }
 .container{
     max-width: 650px;
-    padding: 5px;
+    padding-top: -50px;
     margin: 0px auto ;
     flex: 1 auto;
     display:block;
-    margin: -2% auto 300px auto;
-    max-height: 500px;
+    margin: -6% auto 300px auto;
+    max-height: 300px;
 }
 body{
     width: 100vw;
@@ -41,8 +41,8 @@ body{
     margin: 10px auto 300px auto;
     font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 16px;
-    color: #28313d;;
-    background-color: #f0e5bc;
+    color: #28313d;
+    background-color: #f0e9e9;
     overflow-x: hidden;
     scroll-behavior: smooth;
 
@@ -68,25 +68,27 @@ body{
     margin: -20px 0px 5px 0px;  
     float: left; 
 }
-.About
+.About 
 {
     font-weight:medium;
     font-size:medium;
     display: block;
     margin-block-start: 1em;
     margin-block-end: 1em;
-    word-spacing: 4px;
+    word-spacing: 2px;
     letter-spacing: 1px;
+    text-decoration: none;
 }
 .copyright{
     text-align: center;
-    margin-top: 5%;
-    display:block;
+    padding-bottom: 60px;
+    height: auto;
 }
 .quote{
     color: #344c6b;
     text-align: right;
-    margin-top: 6%;
+    margin: 0cm 2cm;
+    height: 2cm;
 
 }
 .logo{
@@ -94,53 +96,61 @@ body{
     align-items: center;
     font-weight:bold;
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-    margin: 0px auto auto;
+    padding-top: -5%;
+    font-weight: bold;
+    margin-top: 1cm;
 }
+
 .logo-mark{
-    margin: 10px;
+    margin: 0cm 1cm;
 }
 .logo-cursor {
     display: inline-block;
     width: 10px;
     height: 1rem;
-    background: #0c0402;
     margin-left: 5px;
     border-radius: 1px;
-    animation: infinite; 
+    background-color:rgb(216, 85, 129);
+    animation:infinite;
 }
 .logo-text{
+    
     font-weight: bold;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
-a{
-    background: #3498db;
-    background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
-    background-image: -moz-linear-gradient(top, #3498db, #2980b9);
-    background-image: -ms-linear-gradient(top, #3498db, #2980b9);
-    background-image: -o-linear-gradient(top, #3498db, #2980b9);
+.links a{
+    background: #0c0c0c;
+    background-image: -webkit-linear-gradient(top, #0e0f0f, #0e0f0f);
+    background-image: -moz-linear-gradient(top, #0d0d0e, #0d0d0e);
+    background-image: -ms-linear-gradient(top, #0f0f0f, #2980b9);
+    background-image: -o-linear-gradient(top, #0d0d0e, #2980b9);
     background-image: linear-gradient(to bottom, #3498db, #2980b9);
-    -webkit-border-radius: 28;
+    -webkit-border-radius: 28;  
     -moz-border-radius: 28;
     border-radius: 28px;
     font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    color: #402640;
+    color: #0f0f0f;
     font-size: 14px;
     padding: 10px 20px 10px 20px;
     text-decoration: none;
   }
-  
   .btn:hover {
-    background: #3cb0fd;
+    background: #070707;
     text-decoration: none;
+    color: #070707;
   }
  .copyright
   {
     text-decoration: none;
     margin: auto auto auto auto; 
-    max-height: 100px;
-}
-.Expression{
-    color: #344c6b;
-}
+    max-height: 100px ;
 
-
+}
+.quote{
+    text-align: right;
+    padding-left: 10%;
+    color: #344855 ;
+}
+.center{
+    border-radius: 50%;
+}
